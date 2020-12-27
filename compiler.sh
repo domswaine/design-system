@@ -2,7 +2,7 @@
 # git submodule add -b v4-dev https://github.com/twbs/bootstrap.git libraries/bootstrap
  
 # Install Sass
-sudo apt-get install -y sass
+sudo npm install -g sass
  
 # Update Bootstrap library
 git submodule update --recursive libraries/bootstrap
