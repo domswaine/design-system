@@ -12,3 +12,4 @@ rm -r -f dist
 mkdir dist
 touch dist/main.css
 sass main.scss:dist/main.css
+sass main.scss:dist/main.min.css --style compressed
